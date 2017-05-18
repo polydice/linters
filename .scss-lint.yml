@@ -157,7 +157,7 @@ linters:
 
   SelectorDepth:
     enabled: true
-    max_depth: 3
+    max_depth: 4
 
   SelectorFormat:
     enabled: true
@@ -165,7 +165,7 @@ linters:
 
   Shorthand:
     enabled: true
-    allowed_shorthands: [1, 2, 3]
+    allowed_shorthands: [1, 2, 3, 4]
 
   SingleLinePerProperty:
     enabled: true
@@ -203,7 +203,7 @@ linters:
 
   StringQuotes:
     enabled: true
-    style: double_quotes # or single_quotes
+    style: single_quotes # or double_quotes
 
   TrailingSemicolon:
     enabled: true

@@ -77,7 +77,7 @@ Lint/AssignmentInCondition:
 Lint/Debugger:
   Enabled: true
 
-Lint/EndAlignment:
+Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
 
 #################### Performance ###########################
@@ -98,9 +98,6 @@ Performance/FixedSize:
   Enabled: true
 
 Performance/FlatMap:
-  Enabled: true
-
-Performance/HashEachMethods:
   Enabled: true
 
 Performance/LstripRstrip:
